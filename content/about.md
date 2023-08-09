@@ -12,6 +12,6 @@ I aim to use my passion for computer science and technology to spread awareness 
 
 All this website's recipes and more can be found on my recipe blog, [Passionfruit Kitchen](https://passionfruitkitchen.com)!
 
-Read more about [Grow A Meal](https://github.com/gohugoio).
+Read more about [Grow A Meal](https://kchenturtles.github.io/gardenforchange/grow/).
 
 Explore the code for this website on [my GitHub profile](https://github.com/kchenturtles/gardenforchange).
