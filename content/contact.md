@@ -25,7 +25,7 @@ author = "Hugo Authors"
 
 <div style = "display: flex;">
 
-<form method="post" action="https://forms.un-static.com/forms/491526f9bbc563db0e296fab76a46569a99e8dc0" style = "margin: auto; align-self: center; border-color: purple; border-width: 10px; border-style: double; padding:10rem; padding-top:5rem; margin-top:5rem;">
+<form method="post" action="https://forms.un-static.com/forms/67c78e66e522ce4c78b2bcc6b515fd5b41512271" style = "margin: auto; align-self: center; border-color: purple; border-width: 10px; border-style: double; padding:10rem; padding-top:5rem; margin-top:5rem;">
 <h1>Contact Me</h1>
 <div style =  "width: 40rem; margin-top:5rem; margin-bottom: 5rem; line-height:3rem; font-family: Times New Roman; font-size: large;" >Feel free to send me a message! I'm happy to answer questions or take requests for new posts.</div>
   <div class="form-group row">
