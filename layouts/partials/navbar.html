@@ -1,4 +1,4 @@
-<div
+<div style = " background-color:white;"
   class="{{ with .Site.Params.doNotLoadAnimations }}
     .
   {{ else }}
@@ -10,15 +10,20 @@
     <span aria-hidden="true" class="navbar-burger__line"></span>
     <span aria-hidden="true" class="navbar-burger__line"></span>
   </a>
-  <nav class="nav">
-    <ul class="nav__list" id="navMenu">
+  <nav class="nav" style = "text-transform: capitalize;">
+    <div class="nav__list-item" style = "margin-left:3rem;">
+      <a href = "{{ .Site.BaseURL | relLangURL }}">
+        <img src = "{{ .Site.Params.favicon | relURL }}" style = "height: 5rem; width: 5rem;"/>
+      </a>
+    </div>
+    <ul class="nav__list" id="navMenu" style = "margin: auto; justify-content: right; text-align: right; font-size: larger; font-family: 'Times New Roman', Times, serif; background-color: white;">
       {{ $url := .RelPermalink }}
       {{ range $menuId, $menuItem := .Site.Menus.main }}
         {{ $active := eq $url $menuItem.URL }}
         {{ if $menuItem.HasChildren }}
 
-          <li class="nav__list-item">
-            <div class="optionswitch">
+          <li class="nav__list-item" style = "text-transform: capitalize;">
+            <div class="optionswitch" style = "text-transform: capitalize; margin-left: 1rem; margin-right: 1rem;">
               <input class="optionswitch__picker" type="checkbox" id="{{ $menuId }}" hidden />
 
               {{ $labelClass := "optionswitch__label" }}
@@ -53,9 +58,9 @@
             </div>
           </li>
         {{ else }}
-          <li class="nav__list-item">
+          <li class="nav__list-item" style = "text-transform: capitalize;">
             {{ .Pre }}
-            <a
+            <a style = "color: purple;"
               {{ if $active }}
                 class="nav__link--active"
               {{ end }}
@@ -71,7 +76,7 @@
 
       {{ end }}
     </ul>
-    <ul class="nav__list nav__list--end">
+    <ul class="nav__list nav__list--end" style = "width: 0; background-color: white;">
       {{ if and .IsTranslated .Site.IsMultiLingual }}
         <li class="nav__list-item">
           <div class="optionswitch">
@@ -109,4 +114,5 @@
       {{ end }}
     </ul>
   </nav>
+  <div style = "min-height: 1rem; background-color:lavender;"></div>
 </div>

@@ -6,11 +6,6 @@
       animated fadeInDown
     {{ end }}"
   >
-    {{ if .Params.thumbnail }}
-      <div class="post__thumbnail-wrapper">
-        <img class="post__thumbnail" src="{{ .Params.thumbnail | relURL }}" alt="Thumbnail image" />
-      </div>
-    {{ end }}
     <div class="post__content">
       <h1>{{ title .Title }}</h1>
       {{ if or (eq .Type "post") (eq .Type .Site.Params.postSectionName) }}
@@ -47,6 +42,12 @@
       {{- if (eq .Params.toc true) -}}
         {{- partial "toc.html" . -}}
       {{- end -}}
+
+      {{ if .Params.thumbnail }}
+      <div style = "max-width: fit-content; margin-left: 0;">
+        <img class="post__thumbnail-wrapper" src="{{ .Params.thumbnail | relURL }}" alt="Thumbnail image" style = "max-height: 400px; width: 900px; object-fit: cover;" />
+      </div>
+    {{ end }}
 
       {{ .Content }}
 

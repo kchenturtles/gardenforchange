@@ -10,7 +10,9 @@
   {{ end }}
 >
   {{- partial "head.html" . -}}
+  <header class="header">{{ partial "navbar.html" . }}</header>
   <body class="body">
+    <!-- {{ if (.IsHome) }} -->
     <div class="wrapper">
       <aside
         {{ if (and (or (eq .Site.Params.hidesidebar true) (eq .Params.hidesidebar true)) (not .IsHome)) }}
@@ -21,19 +23,24 @@
       >
         {{- partial "sidebar.html" . -}}
       </aside>
+      <!-- {{ end }} -->
+
       <main
         {{ if (and (or (eq .Site.Params.hidesidebar true) (eq .Params.hidesidebar true)) (not .IsHome)) }}
           class="wrapper__main wrapper__main--fullscreen"
         {{ else }}
           class="wrapper__main"
         {{ end }}
-      >
-        <header class="header">{{ partial "navbar.html" . }}</header>
+     style = "margin: auto;"  >
         {{- block "main" . }}{{- end }}
       </main>
     </div>
 
-    {{- partial "footer.html" (dict "context" . "footerClassModifier" "base") -}}
+    <!-- {{- partial "footer.html" -}} -->
+    {{ if (not .IsHome) }}
+    
+      {{- partial "footer.html" (dict "context" . "footerClassModifier" "sidebar") -}}
+    {{ end }}
 
     {{- if (eq .Site.Params.simpleAnalytics.enable true) -}}
       {{- partial "analytics/simpleanalytics.html" . -}}
