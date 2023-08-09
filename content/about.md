@@ -10,6 +10,8 @@ In a time of jeopardy for our planet's climate, gardens may be the next powerful
 
 I aim to utilize my passion for computer science and technology to spread awareness about your power, as an individual, to beneficially influence the planet by "voting" with your garden and your grocery list. I call it the "Grow A Meal" initiative. 
 
+All this website's recipes and more can be found on my recipe blog, [Passionfruit Kitchen](https://passionfruitkitchen.com)!
+
 Read more about [Grow A Meal](https://github.com/gohugoio).
 
-See the code for this website on [GitHub]().
+Explore the code for this website on [my GitHub profile](https://github.com/kchenturtles/gardenforchange).

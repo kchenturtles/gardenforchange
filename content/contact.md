@@ -9,7 +9,17 @@ author = "Hugo Authors"
 
 <script>
     function myFunction() {
-        document.getElementById("response").innerHTML = "Thanks for reaching out! I will get back to you soon.";
+        const p = document.getElementById("response")
+
+        if(document.getElementById("name").value == "") {
+            p.innerHTML = "Please fill out the name field of the form."
+        } else if (document.getElementById("email").value == "") {
+            p.innerHTML = "Please fill out the email field of the form."
+        } else if (document.getElementById("message").value == "") {
+            p.innerHTML = "Please type a message."
+        } else {
+            p.innerHTML = "Thanks for reaching out! I will get back to you soon.";
+        }
     }
 </script>
 
