@@ -5,7 +5,7 @@ author = "Kendree Chen"
 description = "My name is Kendree Chen, and this is my blog about how technology can advance accessibility and efficiency of home gardening, and how this serves the fight against climate change."
 profilePicture = "images/profile.jpeg"
 keywords = ""
-favicon = "favicon/icon.png"
+favicon = "https://kchenturtles.github.io/gardenforchange/favicon/icon.png"
 # example ["css/custom.css"]
 customCss = []
 # example ["js/custom.js"]
