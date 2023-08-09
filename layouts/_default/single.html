@@ -68,6 +68,7 @@
       {{- end -}}
     </div>
     <div class="post__footer">
+      
       {{ with .Page.Params.Categories }}
         {{ partial "taxonomy/categories.html" . }}
       {{ end }}
@@ -75,7 +76,32 @@
       {{ with .Page.Params.Tags }}
         {{ partial "taxonomy/tags.html" . }}
       {{ end }}
+
+      {{if eq .Section "post"}}
+      <div style = "display: flex; justify-content: space-between; margin-top:3rem;">
+     
+        <div class="previous-post">
+            {{ if .PrevPage }}
+            <div style = "display: block;">
+                <div style = "font-family: 'Courier New', Courier, monospace; font-size: large; text-align: left; font-weight: 800;">prev</div>
+                <a class="link-reverse" style = "font-size: large; font-weight: 400;" href="{{ .PrevPage.Permalink }}?ref=footer" style = "text-align:left;">« {{ .PrevPage.Title | truncate 50 "..."}}</a>
+            </div>
+            {{ end }}
+        </div>
+    
+        <div class="next-post">
+            {{ if .NextPage }}
+            <div style = "display: block;">
+                <div style = "font-family: 'Courier New', Courier, monospace; font-size: large; text-align: right;font-weight: 800;">next</div>
+                <a class="link-reverse" style = "font-size: large; font-weight: 400;" href="{{ .NextPage.Permalink }}?ref=footer" style = "text-align:right;">{{ .NextPage.Title | truncate 50 "..." }} »</a>
+            </div>
+            {{ end }}
+        </div>
+      </div>
+
     </div>
+
+    {{ end }}
 
     {{ if and (or (eq .Type "post") (eq .Type .Site.Params.postSectionName)) (ne .Page.Params.disableComments true) }}
       {{- if .Site.DisqusShortname -}}

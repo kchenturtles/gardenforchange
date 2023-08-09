@@ -46,7 +46,7 @@
           <a href="{{ .RelPermalink }}">
             <img class="post__thumbnail-wrapper" src="{{ .Params.thumbnail | relURL }}" alt="Thumbnail image" loading="lazy" style = "height:300px; width: 300px;"/>
           </a>
-          
+          {{ end }}
         <div>
           <div class="post__content">
             <h3><a href="{{ .RelPermalink }}" style = "text-transform: capitalize;">{{ .Title }}</a></h3>
@@ -93,7 +93,7 @@
 
         <div class = "post__footer"/>
         
-      {{ end }}
+      
       
 
       <!--  -->
