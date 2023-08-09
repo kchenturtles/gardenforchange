@@ -1,0 +1,6 @@
+[submodule "themes/composts"]
+	path = themes/composts
+	url = https://github.com/canstand/compost.git
+[submodule "themes/anatole"]
+	path = themes/anatole
+	url = https://github.com/lxndrblz/anatole.git
