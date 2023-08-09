@@ -32,7 +32,85 @@
           class="wrapper__main"
         {{ end }}
      style = "margin: auto;"  >
-        {{- block "main" . }}{{- end }}
+        {{- block "main" . }}
+
+        <div
+    class="archive {{ with .Site.Params.doNotLoadAnimations }}
+      .
+    {{ else }}
+      animated fadeInDown
+    {{ end }}"
+  >
+
+  </div>
+
+        {{- end }}
+
+          {{ $paginator := .Paginate .Pages.ByDate.Reverse }}
+    {{ range $paginator.Pages }}
+    <div
+    class="post {{ with .Site.Params.doNotLoadAnimations }}
+      .
+    {{ else }}
+      animated fadeInDown
+    {{ end }}"
+  >
+    {{ if .Params.thumbnail }}
+      <div style = "display: flex; flex-wrap: wrap; gap:3rem; align-items: center;">
+        <a href="{{ .RelPermalink }}">
+          <img class="post__thumbnail-wrapper" src="{{ .Params.thumbnail | relURL }}" alt="Thumbnail image" loading="lazy" style = "height:300px; width: 300px;"/>
+        </a>
+        
+      <div>
+        <div class="post__content">
+          <h3><a href="{{ .RelPermalink }}" style = "text-transform: capitalize;">{{ .Title }}</a></h3>
+          {{ if .Site.Params.fullPostContent }}
+            <p>{{ .Content | markdownify }}</p>
+          {{ else }}
+            <p>{{ .Summary | markdownify }}</p>
+          {{ end }}
+          <!-- add read more -->
+          {{- if and (.Truncated) (.Site.Params.readMore) -}}
+            <a href="{{ .RelPermalink }}">{{ i18n "read_more" }}</a>
+          {{- end -}}
+        </div>
+        <div>
+          <em class="fas fa-calendar-day"></em>
+          <span class="post__footer-date"
+            >{{ if isset .Site.Params "indexdateformat" }}
+              {{ if .Site.Params.localizedDates }}
+                {{ time.Format .Site.Params.indexDateFormat .Date }}
+              {{ else }}
+                {{ .Date.Format .Site.Params.indexDateFormat }}
+              {{ end }}
+  
+            {{ else }}
+              {{ if .Site.Params.localizedDates }}
+                {{ time.Format "Mon, Jan 2, 2006" .Date }}
+              {{ else }}
+                {{ .Date.Format "Mon, Jan 2, 2006" }}
+              {{ end }}
+  
+            {{ end }}</span
+          >
+          {{ with .Page.Params.Categories }}
+            {{ partial "taxonomy/categories.html" . }}
+          {{ end }}
+  
+          {{ with .Page.Params.Tags }}
+            {{ partial "taxonomy/tags.html" . }}
+          {{ end }}
+        </div>
+      </div>
+
+      </div>
+
+      <div class = "post__footer"/>
+      {{ end }}
+    {{ end }}
+  </div>
+
+
       </main>
     </div>
 

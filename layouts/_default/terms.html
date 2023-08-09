@@ -12,7 +12,7 @@
   {{- partial "head.html" . -}}
   <header class="header">{{ partial "navbar.html" . }}</header>
   <body class="body">
-    <!-- {{ if (.IsHome) }} -->
+    {{ if (.IsHome) }}
     <div class="wrapper">
       <aside
         {{ if (and (or (eq .Site.Params.hidesidebar true) (eq .Params.hidesidebar true)) (not .IsHome)) }}
@@ -23,7 +23,7 @@
       >
         {{- partial "sidebar.html" . -}}
       </aside>
-      <!-- {{ end }} -->
+      {{ end }}
 
       <main
         {{ if (and (or (eq .Site.Params.hidesidebar true) (eq .Params.hidesidebar true)) (not .IsHome)) }}
@@ -32,7 +32,26 @@
           class="wrapper__main"
         {{ end }}
      style = "margin: auto;"  >
-        {{- block "main" . }}{{- end }}
+     <div
+     class="archive {{ with .Site.Params.doNotLoadAnimations }}
+       .
+     {{ else }}
+       animated fadeInDown
+     {{ end }}"
+   >
+
+   </div>
+        {{- block "main" . }}
+
+        <div class="archive__heading" style = "color:purple;">{{ .Name }}</div>
+
+        <ul style = "list-style-type: none; display: flex; flex-wrap: wrap; gap:2rem; justify-content: center;">
+            {{ range .Data.Terms.Alphabetical }}
+              <li><div style = "background-color: lavender; border-radius: 10%; padding:2rem; width: fit-content;"><a href="{{ .Page.Permalink }}" style = "font-size: large;">{{ .Page.Title }}</a> {{ .Count }}</div></li>
+            {{ end }}
+          </ul>
+          
+        {{- end }}
       </main>
     </div>
 

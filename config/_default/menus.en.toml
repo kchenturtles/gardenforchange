@@ -12,15 +12,15 @@
 
   [[main]]
   name = "About"
-  weight = 400
+  weight = 100
   identifier = "about"
   url = "/about/"
 
   [[main]]
-  name = "Tags"
+  name = "Grow A Meal"
   weight = 500
-  identifier = "tags"
-  url = "/tags/"
+  identifier = "grow"
+  url = "/grow/"
 
   [[main]]
   name = "Contact"

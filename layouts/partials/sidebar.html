@@ -26,6 +26,11 @@
       </div>
     </div>
     <ul class="sidebar__list">
+      <li class = "sidebar__list-item">
+        <a href = "https://passionfruitkitchen.com" target = "_blank" rel = "noopener me" aria-label = "Passionfruit Kitchen" title = "Passionfruit Kitchen">
+          <img src = "images/passionfruit-icon.png" style="max-width: 3rem; max-height: 3rem;"/>
+        </a>
+      </li>
       {{ range $item := .Site.Params.socialIcons }}
         <li class="sidebar__list-item">
           <a
@@ -40,6 +45,12 @@
         </li>
       {{ end }}
     </ul>
+    <div class = "sidebar__introduction" style = "margin-top:5rem; font-weight: bold; margin-bottom: 5rem;">Search Tags</div>
+    <ul style = "list-style-type: none; display: flex; flex-wrap: wrap; gap:2rem; justify-content: center;">
+      {{ range .Site.Taxonomies.tags }}
+        <li><div style = "background-color: lavender; border-radius: 10%; padding:1rem; width: fit-content; font-size: small;"><a href="{{ .Page.Permalink }}" style = "font-size: small;">{{ .Page.Title }}</a> {{ .Count }}</div></li>
+      {{ end }}
+    </ul>
+    {{- partial "footer.html" (dict "context" . "footerClassModifier" "sidebar") -}}
   </div>
-  {{- partial "footer.html" (dict "context" . "footerClassModifier" "sidebar") -}}
 </div>

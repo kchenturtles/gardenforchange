@@ -55,10 +55,6 @@ use = "katex"  # options: "katex", "mathjax". default is "katex".
 
 ## Social links
 # use 'fab' when brand icons, use 'fas' when standard solid icons.
-[[socialIcons]]
-icon = "fab fa-linkedin"
-title = "Passionfruit Kitchen"
-url = "https://passionfruitkitchen.com"
 
 [[socialIcons]]
 icon = "fab fa-github"
