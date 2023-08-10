@@ -39,9 +39,9 @@
 
       {{- partial "expirationnote.html" . -}}
 
-      {{- if (eq .Params.toc true) -}}
+      <!-- {{- if (eq .Params.toc true) -}} -->
         {{- partial "toc.html" . -}}
-      {{- end -}}
+      <!-- {{- end -}} -->
 
       {{ if .Params.thumbnail }}
       <div style = "max-width: fit-content; margin-left: 0;">
@@ -50,6 +50,8 @@
     {{ end }}
 
       {{ .Content }}
+
+      <div class="post__footer"></div>
 
       {{- if isset .Params "series" -}}
         {{- partial "series.html" . -}}

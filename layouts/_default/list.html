@@ -9,28 +9,64 @@
     {{ range .Data.Pages.GroupByDate "2006" }}
       <div class="archive__heading" style = "color:purple;">{{ .Key }}</div>
       {{ range .Pages }}
-        <ul class="archive__list">
-          <li class="archive__list-item" style = "text-transform: capitalize;">
-            <a class="archive__list-title" style = "text-transform: capitalize; font-weight: 600; font-size: xx-large; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a>
-            <div class="archive__list-date" style = "text-transform: capitalize;">
-              {{ if isset .Site.Params "listdateformat" }}
+      <div
+      class="post {{ with .Site.Params.doNotLoadAnimations }}
+        .
+      {{ else }}
+        animated fadeInDown
+      {{ end }}"
+    >
+      {{ if .Params.thumbnail }}
+        <div style = "display: flex; flex-wrap: wrap; gap:3rem; align-items: center;">
+          <a href="{{ .RelPermalink }}">
+            <img class="post__thumbnail-wrapper" src="{{ .Params.thumbnail | relURL }}" alt="Thumbnail image" loading="lazy" style = "height:300px; width: 300px;"/>
+          </a>
+          {{ end }}
+        <div>
+          <div class="post__content">
+            <h3><a href="{{ .RelPermalink }}" style = "text-transform: capitalize;">{{ .Title }}</a></h3>
+            {{ if .Site.Params.fullPostContent }}
+              <p>{{ .Content | markdownify }}</p>
+            {{ else }}
+              <p>{{ .Summary | markdownify }}</p>
+            {{ end }}
+            <!-- add read more -->
+            {{- if and (.Truncated) (.Site.Params.readMore) -}}
+              <a href="{{ .RelPermalink }}">{{ i18n "read_more" }}</a>
+            {{- end -}}
+          </div>
+          <div>
+            <em class="fas fa-calendar-day"></em>
+            <span class="post__footer-date"
+              >{{ if isset .Site.Params "indexdateformat" }}
                 {{ if .Site.Params.localizedDates }}
-                  {{ time.Format .Site.Params.listDateFormat .Date }}
+                  {{ time.Format .Site.Params.indexDateFormat .Date }}
                 {{ else }}
-                  {{ .Date.Format .Site.Params.listDateFormat }}
+                  {{ .Date.Format .Site.Params.indexDateFormat }}
                 {{ end }}
-
+    
               {{ else }}
                 {{ if .Site.Params.localizedDates }}
-                  {{ time.Format "Jan 2" .Date }}
+                  {{ time.Format "Mon, Jan 2, 2006" .Date }}
                 {{ else }}
-                  {{ .Date.Format "Jan 2" }}
+                  {{ .Date.Format "Mon, Jan 2, 2006" }}
                 {{ end }}
+    
+              {{ end }}</span
+            >
+            {{ with .Page.Params.Categories }}
+              {{ partial "taxonomy/categories.html" . }}
+            {{ end }}
+    
+            {{ with .Page.Params.Tags }}
+              {{ partial "taxonomy/tags.html" . }}
+            {{ end }}
+          </div>
+        </div>
+  
+        </div>
+        <div class = "post__footer"></div>
 
-              {{ end }}
-            </div>
-          </li>
-        </ul>
       {{ end }}
 
     {{ end }}
