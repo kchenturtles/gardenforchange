@@ -2,7 +2,7 @@
 title = "Garden For Change"
 author = "Garden For Change"
 #copyright = "2023"
-description = "My name is Kendree Chen, and this is my blog about how technology can advance accessibility and efficiency of home gardening, and how this serves the fight against climate change."
+description = "My name is Kendree Chen. Welcome to Garden For Change, a blog about how technology can advance accessibility and efficiency of home gardening, and how this serves the fight against climate change."
 profilePicture = "images/profile.jpeg"
 keywords = ""
 favicon = "https://kchenturtles.github.io/gardenforchange/favicon/icon.png"
@@ -72,4 +72,4 @@ title = "e-mail"
 url = "mailto:kendree.chen@gmail.com"
 
 [mermaid]
- enable = true
+# enable = true
