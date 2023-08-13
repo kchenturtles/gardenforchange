@@ -44,11 +44,9 @@ Starting a compost is easier than you might think. Here's a simple breakdown of 
 - Coffee grounds
 
 **Avoid These:**
-- Meat
-- Dairy
-- Oily foods
-- Pet waste
-These items can attract pests and create a bad odor. Pet waste or animal waste may contain diseases and thus is not safe to use as compost in the vegetable garden.
+- Meat, dairy, and oily foods: These items can attract pests and create a bad odor. 
+- Pet waste or animal waste: This may contain diseases and thus is not safe to use as compost in the vegetable garden.
+- Non organic materials: Plastics, glass, and other similar materials will not break down and thus are not compostable.
 
 ## When Is It Done?
 When your compost is ready, it'll look and smell like dark, crumbly soil. This is your "black gold," packed with nutrients that your plants will adore. Mix it into your garden beds or use it as a top dressing to boost your plants' health and growth.
