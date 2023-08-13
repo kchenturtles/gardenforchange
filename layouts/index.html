@@ -31,18 +31,21 @@
       </div>
     </div>
   {{ end }}
+  
 
   {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
   {{ range $paginator.Pages }}
-    <div
-      class="post {{ with .Site.Params.doNotLoadAnimations }}
-        .
-      {{ else }}
-        animated fadeInDown
-      {{ end }}"
-    >
-      {{ if .Params.thumbnail }}
-        <div style = "display: flex; flex-wrap: wrap; gap:3rem; align-items: center;">
+
+  <div
+  class="post {{ with .Site.Params.doNotLoadAnimations }}
+    .
+  {{ else }}
+    animated fadeInDown
+  {{ end }}"
+>
+  
+        <div style = "display: flex; gap:3rem; align-items: center; margin-left: 1rem;">
+          {{ if .Params.thumbnail }}
           <a href="{{ .RelPermalink }}">
             <img class="post__thumbnail-wrapper" src="{{ .Params.thumbnail | relURL }}" alt="Thumbnail image" loading="lazy" style = "height:300px; width: 300px;"/>
           </a>
@@ -88,18 +91,12 @@
             {{ end }}
           </div>
         </div>
-
         </div>
-
-        <div class = "post__footer"/>
-        
-      
-      
-
-      <!--  -->
-      
+        <div class = "post__footer"> </div>
     </div>
   {{ end }}
+  </div>
+
   <div class="pagination">
     {{ template "partials/pagination.html" . }}
   </div>
