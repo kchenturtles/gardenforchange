@@ -1,12 +1,13 @@
 +++
 title = "Grow A Meal"
-description = ""
+Summary = "Believe it or not, it's easy to transform your backyard, balcony, or windowsill into a flourishing supply of vegetables!"
 date = "2023-07-09"
 aliases = ["about-us", "about-hugo", "contact"]
+Series = ["garden"]
 author = "Hugo Authors"
 +++
 
-The Grow A Meal project celebrates the joy of making dishes with ingredients straight from your very own garden.
+The Grow A Meal series celebrates the joy of making dishes with ingredients straight from your very own garden.
 
 Believe it or not, it's easy to transform your backyard, balcony, or windowsill into a flourishing supply of vegetables! This website is a resource designed to empower you to grow your own produce at home. With the advent of exciting new technology, gardening anywhere and anytime is becoming more and more feasible. On this blog, you'll find tips and tricks for starting a successful garden at home, and you can discover the impact you're making, or explore some of the innovative new technology being applied on a large scale in the agricultural sector.
 

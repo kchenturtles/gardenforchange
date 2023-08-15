@@ -11,6 +11,12 @@
   url = "/categories/"
 
   [[main]]
+  name = "Series"
+  weight = 300
+  identifier = "series"
+  url = "/series/"
+
+  [[main]]
   name = "About"
   weight = 100
   identifier = "about"
@@ -53,13 +59,19 @@
   url = "/tags/"
 
   [[footer]]
-  name = "About"
+  name = "Series"
   weight = 500
+  identifier = "series"
+  url = "/series/"
+
+  [[footer]]
+  name = "About"
+  weight = 600
   identifier = "about"
   url = "/about/"
 
   [[footer]]
   name = "Contact"
-  weight = 600
+  weight = 700
   identifier = "contact"
   url = "/contact/"
