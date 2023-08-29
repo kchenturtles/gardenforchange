@@ -1,21 +1,33 @@
 ---
 title: "Book Review: The Omnivore's Dilemma"
 date: 2023-08-28T19:13:29-04:00
-Summary: "Michael Pollan's acclaimed work, The Omnivore's Dilemma, delves into the intricate tapestry of farming with a keen focus on the modern food industry's origins, methods, and implications."
-Tags: [gardening]
+Summary: "An exploration of the modern food system in America. (And, my thoughts on on how to \"vote with your fork\")"
+Tags: [books]
 Categories: [blog]
 Series: [reviews]
+thumbnail: "images/omnivores-dilemma.jpg"
 DisableComments: false
 draft: false
 ---
-Michael Pollan's acclaimed work, "The Omnivore's Dilemma," delves into the intricate tapestry of farming with a keen focus on the modern food industry's origins, methods, and implications. With a discerning eye and investigative spirit, Pollan peels back the layers of industrial agriculture, organic farming, and alternative practices to reveal a comprehensive portrait of the farming landscape.
+I first read _The Omnivore's Dilemma_ in 7th grade. This was the book that convinced me to go vegetarian.
 
-At the heart of Pollan's exploration lies a profound examination of the corn-centric nature of modern American agriculture. In a captivating narrative, he follows the trail of corn from its cultivation in vast monocultures to its presence in processed foods, shining a spotlight on the extensive impact this ubiquitous crop has on the food system. Pollan's scrutiny of the industrial model of farming exposes the complex web of subsidies, production methods, and unintended consequences that shape what we eat.
+Written by acclaimed food journalist Michael Pollan, _The Omnivore's Dilemma_ delves into the tangle of America's farming industries and explores the questionable nature of the methods used in the modern food inustry. Through three "meals" of very different origins, Pollan delves into one by one the practices of industrial agriculture, organic farming, and alternative farming to show readers the vast differences in how food might get to their table.
 
-Amidst this industrial backdrop, Pollan introduces readers to alternatives such as Joel Salatin's Polyface Farm, where innovative and regenerative practices reign supreme. By highlighting Salatin's approach to holistic farming, Pollan showcases a sustainable model that prioritizes the well-being of animals, the health of the land, and the quality of food produced. This segment serves as a beacon of hope, inspiring readers to envision a more harmonious relationship between humans and the environment.
+Pollan begins his journey in a field of corn: the industrial corn farm of modern American agriculture. He follows the trail of corn from its cultivation in vast monocultures to its presence in processed foods, shining a spotlight on the extensive impact this crop has had on the food system, and the economic factors that have allowed it to creep into the majority of foods on shelves today. Furthermore, Pollan's description of practices used in factory farming exposes the effect that corn has on animals raised for consumption.
 
-Furthermore, Pollan's exploration of the journey from field to plate serves as a wake-up call to the disconnection many individuals have from their food sources. He delves into the concept of "food miles," shedding light on the environmental cost of long-distance shipping and encouraging readers to consider the significance of supporting local agriculture.
+In his second "meal," Pollan reveals some complicating truths about so-called "organic" produce, peeling back public misconceptions equating organic farming with humane, sustainable farming. Pollan reveals the continuing influence of economics on the organic industry, pushing organic growers to industrialize and economize production like any other factory farm while disseminating a perception of idyllic, natural farming.
 
-"The Omnivore's Dilemma" encourages readers to be conscientious consumers by fostering an understanding of the intricate choices we make when selecting our food. Pollan's meticulous research and balanced approach provide a comprehensive overview of the diverse farming methods, allowing readers to critically evaluate their impact on the environment, animal welfare, and human health.
+Finally, Pollan introduces readers to a third alternative through his sojourn at Joel Salatin's Polyface Farm, where innovative and regenerative practices reign supreme. By highlighting Salatin's holistic farming approach, Pollan showcases a sustainable model that prioritizes natural recycling practices, humane treatment of animals, and sustaining the health of the land.
 
-In conclusion, Michael Pollan's "The Omnivore's Dilemma" stands as a compelling examination of farming practices in a world of complex dietary choices. By weaving together history, science, and personal experiences, Pollan offers readers an opportunity to delve into the depths of our food systems, inspiring thought-provoking discussions about the future of agriculture. Whether you're a food enthusiast, a sustainability advocate, or someone curious about the origins of your meals, this book provides an enlightening journey into the heart of farming and its profound implications for our society and planet.
+Pollan's exploration of the journey from field to plate serves as a wake-up call to the majority of American consumers, greatly disconnected from or unaware of their food sources. He delves into the concept of "food miles," shedding light on the environmental cost of long-distance shipping and encouraging readers to consider the significance of supporting local agriculture.
+
+_The Omnivore's Dilemma_ makes a strong case for readers to be conscientious consumers, by "voting with their forks". Some steps I have taken (and encourage others to do as well!) to limit my impact on the environment and to promote humane treatment of animals have been:
+
+- Eating a vegetarian diet, as I refuse to support factory farming practices
+- Buying from and supporting local farmer's markets and local produce
+- Buying produce "in season" to reduce the shipping of produce across the globe
+- Growing my own vegetables at home in my garden
+- Reducing food waste by finding ways to use more parts of produce that I buy -- such as [watermelon rind kimchi!](https://food52.com/recipes/83742-watermelon-rind-kimchi-recipe)
+- Composting food waste that I cannot use
+
+Feel free to leave a comment about ways that you can vote with your fork!

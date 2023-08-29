@@ -56,12 +56,12 @@
     {{ end }}"
   >
     {{ if .Params.thumbnail }}
-      <div style = "display: flex; flex-wrap: wrap; gap:3rem; align-items: center;">
+      <div style = "display: flex; gap:3rem; align-items: center;">
         <a href="{{ .RelPermalink }}">
           <img class="post__thumbnail-wrapper" src="{{ .Params.thumbnail | relURL }}" alt="Thumbnail image" loading="lazy" style = "height:300px; width: 300px;"/>
         </a>
         {{ end }}
-      <div>
+      <div style = "flex-wrap: wrap;">
         <div class="post__content">
           <h3><a href="{{ .RelPermalink }}" style = "text-transform: capitalize;">{{ .Title }}</a></h3>
           {{ if .Site.Params.fullPostContent }}
@@ -106,13 +106,16 @@
       </div>
 
       <div class = "post__footer"></div>
+
+    </div>
+
+  </div>
       
     {{ end }}
-  </div>
-
-
+  
       </main>
     </div>
+  
 
     <!-- {{- partial "footer.html" -}} -->
     {{ if (not .IsHome) }}

@@ -6,6 +6,7 @@ Tags: [robotics]
 Categories: [blog]
 Series: [robots]
 DisableComments: false
+thumbnail: "images/massrobotics.png"
 draft: false
 ---
 
