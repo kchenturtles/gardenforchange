@@ -16,8 +16,9 @@
         animated fadeInDown
       {{ end }}"
     >
-      {{ if .Params.thumbnail }}
-        <div style = "display: flex; flex-wrap: wrap; gap:3rem; align-items: center;">
+    
+        <div style = "display: flex; gap:3rem; align-items: center;">
+          {{ if .Params.thumbnail }}
           <a href="{{ .RelPermalink }}">
             <img class="post__thumbnail-wrapper" src="{{ .Params.thumbnail | relURL }}" alt="Thumbnail image" loading="lazy" style = "height:300px; width: 300px;"/>
           </a>
@@ -66,6 +67,8 @@
   
         </div>
         <div class = "post__footer"></div>
+        </div>
+        </div>
 
       {{ end }}
 
