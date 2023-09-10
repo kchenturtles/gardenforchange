@@ -6,6 +6,6 @@ Tags: [gardening, apples, farmer's market]
 Categories: [blog, reviews]
 Series: [apples]
 DisableComments: false
-draft: false
+draft: true
 thumbnail: "images/dandy-red.jpeg"
 ---
