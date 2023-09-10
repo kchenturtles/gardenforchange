@@ -3,8 +3,8 @@ title: "Book Review: The Omnivore's Dilemma"
 date: 2023-08-28T19:13:29-04:00
 Summary: "An exploration of the modern food system in America. (And, my thoughts on on how to \"vote with your fork\")"
 Tags: [books]
-Categories: [blog]
-Series: [reviews]
+Categories: [blog, reviews]
+Series: [Book Reviews]
 thumbnail: "images/omnivores-dilemma.jpg"
 DisableComments: false
 draft: false

@@ -4,7 +4,7 @@ date: 2023-08-28T19:13:03-04:00
 Summary: "Recently I was given the opportunity to get a tour inside MassRobotics."
 Tags: [robotics]
 Categories: [blog]
-Series: [robots]
+Series: []
 DisableComments: false
 thumbnail: "images/massrobotics.png"
 draft: false

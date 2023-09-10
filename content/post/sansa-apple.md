@@ -4,7 +4,7 @@ date: 2023-09-10T17:32:02-04:00
 Summary: "A review of the Sansa Apple"
 Tags: [gardening, apples, farmer's market]
 Categories: [blog, reviews]
-Series: [apples]
+Series: [Farmer's Market Apple Reviews]
 DisableComments: false
 draft: false
 thumbnail: "images/sansa-apple-side.jpeg"

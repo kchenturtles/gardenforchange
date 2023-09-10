@@ -3,8 +3,8 @@ title: "Starting a Garden"
 date: 2023-08-09T21:27:46-04:00
 Summary: "Starting a garden can seem like a big task, but it's actually only a few steps before you can have a harvest of your own!"
 Tags: [gardening]
-Categories: [blog]
-Series: [garden]
+Categories: [articles]
+Series: [Gardening 101]
 DisableComments: false
 ---
 

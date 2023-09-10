@@ -2,8 +2,8 @@
 title: "Cook Your Summer Harvest"
 date: 2023-08-12T01:57:10-04:00
 Summary: "What should you cook with your summer produce? Read some great ideas for the latest bounty from your garden."
-Tags: [cooking]
-Categories: [blog, recipes]
+Tags: [recipes]
+Categories: [articles]
 DisableComments: false
 thumbnail: "images/tomato_fritatta_aerial.jpg"
 draft: false

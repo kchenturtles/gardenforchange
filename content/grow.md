@@ -3,7 +3,7 @@ title = "Grow A Meal"
 Summary = "Believe it or not, it's easy to transform your backyard, balcony, or windowsill into a flourishing supply of vegetables!"
 date = "2023-07-09"
 aliases = ["about-us", "about-hugo", "contact"]
-Series = ["garden"]
+Series = ["Gardening 101"]
 author = "Hugo Authors"
 +++
 

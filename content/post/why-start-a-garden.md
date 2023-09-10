@@ -3,8 +3,8 @@ title: "5 Reasons to Start A Garden"
 date: 2023-08-08T21:54:31-04:00
 Summary: "Here's why you should start a garden of your own this year!"
 Tags: [gardening]
-Categories: [blog]
-Series: [garden]
+Categories: [articles]
+Series: [Gardening 101]
 DisableComments: false
 thumbnail: "images/why-start-a-garden.jpeg"
 ---
