@@ -1,7 +1,7 @@
 ---
 title: "Farmer's Market Apple Reviews: Sansa"
 date: 2023-09-10T17:32:02-04:00
-Summary: "A review of the Sansa Apple"
+Summary: "Sansa Apple"
 Tags: [gardening, apples, farmer's market]
 Categories: [blog, reviews]
 Series: [Farmer's Market Apple Reviews]
@@ -18,4 +18,4 @@ We're kicking things off with the **Sansa** apple, a cultivar native to New Engl
 
 Upon biting in, this apple is relatively fine-grained and relatively juicy. It's sweet like its Gala parent, but has a little bit more complexity of flavor with a little bit of a citrusy finish. Perhaps it's just the creamy color, but this apple to me had almost a hint of banana flavor. Worth trying if you can find it!
 
-Rating: ***
+Rating: ****
