@@ -44,8 +44,8 @@ Let's start with the basics:
 
 ## Taste & Texture:
 
-- **Vinous:** Vinous refers to the word "vino," or wine. Indeed, some apples are described as having a flavor like wine. This descriptor is often used for the Winesap and McIntosh cultivars.
-- **Subacid:** Subacid is literally less acidic. In an apple, this typically means that it is a pleasing balance between sour and sweet, and not too sour. 
-- **Mealy:** Often times apples that have gotten too old will become mealy. Mealy apples are less crisp, more granular, or have an almost dry texture when bitten into. Keep in mind that some apples are naturally softer, and this is different from being mealy. Mealy apples will feel almost crumbly rather than creamy in texture.
+- **Vinous:** Vinous refers to the word "vino," or "wine" in Latin. Indeed, some apples are described as having a flavor like wine. This descriptor is often used for the Winesap and McIntosh cultivars.
+- **Subacid:** "Subacid" is literally "less acidic." In an apple, this typically means that it is a pleasing balance between sour and sweet. 
+- **Mealy:** Often times apples that have gotten too old will become mealy. Mealy apples are less crisp, more granular, or have an almost dry texture when bitten into. Keep in mind that some apples are naturally softer, and this is different from being mealy. Mealy apples will feel almost crumbly in texture.
 - **Graining:** Graining refers to the texture inside an apple. "Coarse-grained" apples have larger cells that have the capacity for more water. This makes them especially juicy and crunchy. "Fine-grained" apples will tend towards a more smooth, almost creamy mouthfeel and will be less juicy.
 

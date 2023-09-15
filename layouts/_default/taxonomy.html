@@ -79,9 +79,9 @@
           <span class="post__footer-date"
             >{{ if isset .Site.Params "indexdateformat" }}
               {{ if .Site.Params.localizedDates }}
-                {{ time.Format .Site.Params.indexDateFormat .Date }}
+                {{ time.Format "01/02/2006" .Date }}
               {{ else }}
-                {{ .Date.Format .Site.Params.indexDateFormat }}
+                {{ .Date.Format "01/02/2006" }}
               {{ end }}
   
             {{ else }}

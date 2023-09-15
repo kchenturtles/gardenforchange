@@ -15,9 +15,9 @@
             <span class="post__meta-text"
               >{{ if isset .Site.Params "singledateformat" }}
                 {{ if .Site.Params.localizedDates }}
-                  {{ time.Format .Site.Params.singleDateFormat .Date }}
+                  {{ time.Format "Mon, Jan 2, 2006" .Date }}
                 {{ else }}
-                  {{ .Date.Format .Site.Params.singleDateFormat }}
+                  {{ .Date.Format "Mon, Jan 2, 2006" }}
                 {{ end }}
 
               {{ else }}
