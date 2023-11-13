@@ -1,6 +1,6 @@
 ---
 title: "Farmer's Market Apple Reviews: Honeycrisp"
-date: 2023-09-10T17:35:26-04:00
+date: 2023-06-10T17:35:26-04:00
 Summary: "Honeycrisp Apple"
 Tags: [gardening, apples, farmer's market]
 Categories: [blog, reviews]

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Robots For Change</title>
+    <link>https://kchenturtles.github.io/gardenforchange/categories/</link>
+    <description>Recent content in Categories on Robots For Change</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 15 Sep 2023 17:36:04 -0400</lastBuildDate><atom:link href="https://kchenturtles.github.io/gardenforchange/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>blog</title>
+      <link>https://kchenturtles.github.io/gardenforchange/categories/blog/</link>
+      <pubDate>Fri, 15 Sep 2023 17:36:04 -0400</pubDate>
+      
+      <guid>https://kchenturtles.github.io/gardenforchange/categories/blog/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>reviews</title>
+      <link>https://kchenturtles.github.io/gardenforchange/categories/reviews/</link>
+      <pubDate>Fri, 15 Sep 2023 17:36:04 -0400</pubDate>
+      
+      <guid>https://kchenturtles.github.io/gardenforchange/categories/reviews/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>articles</title>
+      <link>https://kchenturtles.github.io/gardenforchange/categories/articles/</link>
+      <pubDate>Sun, 10 Sep 2023 18:05:29 -0400</pubDate>
+      
+      <guid>https://kchenturtles.github.io/gardenforchange/categories/articles/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

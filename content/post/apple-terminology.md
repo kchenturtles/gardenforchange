@@ -1,6 +1,6 @@
 ---
 title: "Farmer's Market Apple Reviews: Apple Terminology"
-date: 2023-09-10T18:05:29-04:00
+date: 2023-10-10T18:05:29-04:00
 Summary: "A guide to commonly used apple terms."
 Tags: [gardening, apples, farmer's market]
 Categories: [articles]

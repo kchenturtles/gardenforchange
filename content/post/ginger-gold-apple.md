@@ -1,6 +1,6 @@
 ---
 title: "Farmer's Market Apple Reviews: Ginger Gold"
-date: 2023-09-12T17:36:12-04:00
+date: 2023-07-12T17:36:12-04:00
 Summary: "Ginger Gold"
 Tags: [gardening, apples, farmer's market]
 Categories: [blog, reviews]

@@ -29,6 +29,12 @@
   url = "/grow/"
 
   [[main]]
+  name = "Adventures in FIRST Robotics"
+  weight = 500
+  identifier = "grow"
+  url = "/frc/"
+
+  [[main]]
   name = "Contact"
   weight = 600
   identifier = "contact"

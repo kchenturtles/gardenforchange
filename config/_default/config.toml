@@ -1,7 +1,7 @@
 baseURL = "https://kchenturtles.github.io/gardenforchange/"
 languageCode = "en"
 DefaultContentLanguage = "en"
-title = "Garden For Change"
+title = "Robots For Climate"
 
 # theme as hugo module
 #theme = "github.com/lxndrblz/anatole"

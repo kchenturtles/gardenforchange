@@ -1,6 +1,6 @@
 ---
 title: "A Tour of Mass Robotics"
-date: 2023-08-28T19:13:03-04:00
+date: 2023-05-28T19:13:03-04:00
 Summary: "Recently I was given the opportunity to get a tour inside MassRobotics."
 Tags: [robotics]
 Categories: [blog]

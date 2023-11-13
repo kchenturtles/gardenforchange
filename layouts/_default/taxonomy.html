@@ -81,7 +81,7 @@
               {{ if .Site.Params.localizedDates }}
                 {{ time.Format "01/02/2006" .Date }}
               {{ else }}
-                {{ .Date.Format "01/02/2006" }}
+                {{.Date.Format "01/02/2006"}}
               {{ end }}
   
             {{ else }}
